@@ -16,8 +16,8 @@ const FileUpload = ({ contract, account, provider }) => {
           url: "https://api.pinata.cloud/pinning/pinFileToIPFS",
           data: formData,
           headers: {
-            pinata_api_key: `Enter Your Key`,
-            pinata_secret_api_key: `Enter Your Secret Key`,
+            pinata_api_key: `9b43172d62fdac6007e5`,
+            pinata_secret_api_key: `eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiJjYjU5ZGNjMy1mMjVjLTQ1NTctYWEyMi05YmYwYjU2ZmE0YzAiLCJlbWFpbCI6ImpheWVzaHVrZXkxOTEyQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImlkIjoiRlJBMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfSx7ImlkIjoiTllDMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2UsInN0YXR1cyI6IkFDVElWRSJ9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiI5YjQzMTcyZDYyZmRhYzYwMDdlNSIsInNjb3BlZEtleVNlY3JldCI6ImJkYTRlMmJhMmJlMDMxZTVhMDQyYmRiZTM1YWRmMWZkNTEzOWE5NWI0YTA2MzNiMTliYWE4MGViNzk2OWQ1YWEiLCJpYXQiOjE3MTE0NzQ4OTN9.LM6so3fVnf9BHysfzRTh4H7Ru0uZKhcJ7eRKjSgOnsQ`,
             "Content-Type": "multipart/form-data",
           },
         });
